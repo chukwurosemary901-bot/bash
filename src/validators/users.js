@@ -1,5 +1,5 @@
 import joi from 'joi';
-export const signupUserSchema = joi.object({
+export const userReg = joi.object({
     id: joi.string().required(),
     firstName: joi.string().required(),
     lastName: joi.string().required(),
